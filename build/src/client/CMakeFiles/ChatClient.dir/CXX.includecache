@@ -354,9 +354,9 @@ limits
 type_traits
 -
 
-/home/kalosaner/learn/chat/src/client/main.cpp
+/home/kalosaner/learn/ClusterChatServer/src/client/main.cpp
 json.hpp
-/home/kalosaner/learn/chat/src/client/json.hpp
+/home/kalosaner/learn/ClusterChatServer/src/client/json.hpp
 iostream
 -
 thread
@@ -388,9 +388,9 @@ semaphore.h
 atomic
 -
 group.hpp
-/home/kalosaner/learn/chat/src/client/group.hpp
+/home/kalosaner/learn/ClusterChatServer/src/client/group.hpp
 user.hpp
-/home/kalosaner/learn/chat/src/client/user.hpp
+/home/kalosaner/learn/ClusterChatServer/src/client/user.hpp
 public.hpp
-/home/kalosaner/learn/chat/src/client/public.hpp
+/home/kalosaner/learn/ClusterChatServer/src/client/public.hpp
 

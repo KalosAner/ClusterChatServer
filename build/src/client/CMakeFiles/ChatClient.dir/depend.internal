@@ -7,4 +7,4 @@ src/client/CMakeFiles/ChatClient.dir/main.cpp.o
  ../include/server/model/groupuser.hpp
  ../include/server/model/user.hpp
  ../thirdparty/json.hpp
- /home/kalosaner/learn/chat/src/client/main.cpp
+ /home/kalosaner/learn/ClusterChatServer/src/client/main.cpp
