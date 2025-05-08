@@ -1,4 +1,5 @@
 #include "db.h"
+#include "../log/log.h"
 #include <muduo/base/Logging.h>
 
 static string server = "127.0.0.1";
@@ -24,16 +25,19 @@ bool MySQL::connect()
         // C和C++代码默认编码是ASCII，如不设置 gbk 中文会乱码
         mysql_query(_conn, "set names gbk");
         LOG_INFO << "connect mysql success!";
+        MY_LOG_INFO("connect mysql success!");
     }
     else {
         LOG_INFO << mysql_error(_conn);
         LOG_INFO << "connect mysql fail!";
+        MY_LOG_INFO("connect mysql fail!");
     }
     return p;
 }
 bool MySQL::update(string sql) {
     if (mysql_query(_conn, sql.c_str())) {
         LOG_INFO << __FILE__ << ":" << __LINE__ << ":" << sql << "更新失败!";
+        MY_LOG_INFO("更新失败!", sql);
         return false;
     }
     return true;
@@ -41,6 +45,7 @@ bool MySQL::update(string sql) {
 MYSQL_RES* MySQL::query(string sql) {
     if (mysql_query(_conn, sql.c_str())) {
         LOG_INFO << __FILE__ << ":" << __LINE__ << ":" << sql << "查询失败!";
+        MY_LOG_INFO("查询失败!", sql);
         return nullptr;
     }
     return mysql_use_result(_conn);

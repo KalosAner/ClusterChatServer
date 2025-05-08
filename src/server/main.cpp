@@ -1,5 +1,6 @@
 #include "chatserver.hpp"
 #include "chatservice.hpp"
+#include "./log/log.h"
 #include <iostream>
 #include <signal.h>
 
@@ -17,7 +18,8 @@ int main(int argc, char **argv)
     int port = atoi(argv[1]);
     InetAddress addr(port);     // 缺省 IP 参数，默认绑定任意 IP：INADDR_ANY
     ChatServer server(&loop, addr, "ChatServer");
-
+    Log::Instance()->init(1, "./log", ".log", 1024);
+    
     server.start();
     loop.loop();
 

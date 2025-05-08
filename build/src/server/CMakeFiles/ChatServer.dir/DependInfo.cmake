@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/kalosaner/learn/ClusterChatServer/src/server/buffer/buffer.cpp" "/home/kalosaner/learn/ClusterChatServer/build/src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.o"
   "/home/kalosaner/learn/ClusterChatServer/src/server/chatserver.cpp" "/home/kalosaner/learn/ClusterChatServer/build/src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o"
   "/home/kalosaner/learn/ClusterChatServer/src/server/chatservice.cpp" "/home/kalosaner/learn/ClusterChatServer/build/src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o"
   "/home/kalosaner/learn/ClusterChatServer/src/server/db/db.cpp" "/home/kalosaner/learn/ClusterChatServer/build/src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o"
+  "/home/kalosaner/learn/ClusterChatServer/src/server/log/log.cpp" "/home/kalosaner/learn/ClusterChatServer/build/src/server/CMakeFiles/ChatServer.dir/log/log.cpp.o"
   "/home/kalosaner/learn/ClusterChatServer/src/server/main.cpp" "/home/kalosaner/learn/ClusterChatServer/build/src/server/CMakeFiles/ChatServer.dir/main.cpp.o"
   "/home/kalosaner/learn/ClusterChatServer/src/server/model/friendmodel.cpp" "/home/kalosaner/learn/ClusterChatServer/build/src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o"
   "/home/kalosaner/learn/ClusterChatServer/src/server/model/groupmodel.cpp" "/home/kalosaner/learn/ClusterChatServer/build/src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o"

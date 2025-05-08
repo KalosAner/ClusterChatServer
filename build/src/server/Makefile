@@ -125,6 +125,33 @@ ChatServer/fast:
 	cd /home/kalosaner/learn/ClusterChatServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
 .PHONY : ChatServer/fast
 
+buffer/buffer.o: buffer/buffer.cpp.o
+
+.PHONY : buffer/buffer.o
+
+# target to build an object file
+buffer/buffer.cpp.o:
+	cd /home/kalosaner/learn/ClusterChatServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.o
+.PHONY : buffer/buffer.cpp.o
+
+buffer/buffer.i: buffer/buffer.cpp.i
+
+.PHONY : buffer/buffer.i
+
+# target to preprocess a source file
+buffer/buffer.cpp.i:
+	cd /home/kalosaner/learn/ClusterChatServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.i
+.PHONY : buffer/buffer.cpp.i
+
+buffer/buffer.s: buffer/buffer.cpp.s
+
+.PHONY : buffer/buffer.s
+
+# target to generate assembly for a file
+buffer/buffer.cpp.s:
+	cd /home/kalosaner/learn/ClusterChatServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.s
+.PHONY : buffer/buffer.cpp.s
+
 chatserver.o: chatserver.cpp.o
 
 .PHONY : chatserver.o
@@ -205,6 +232,33 @@ db/db.s: db/db.cpp.s
 db/db.cpp.s:
 	cd /home/kalosaner/learn/ClusterChatServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.s
 .PHONY : db/db.cpp.s
+
+log/log.o: log/log.cpp.o
+
+.PHONY : log/log.o
+
+# target to build an object file
+log/log.cpp.o:
+	cd /home/kalosaner/learn/ClusterChatServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/log/log.cpp.o
+.PHONY : log/log.cpp.o
+
+log/log.i: log/log.cpp.i
+
+.PHONY : log/log.i
+
+# target to preprocess a source file
+log/log.cpp.i:
+	cd /home/kalosaner/learn/ClusterChatServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/log/log.cpp.i
+.PHONY : log/log.cpp.i
+
+log/log.s: log/log.cpp.s
+
+.PHONY : log/log.s
+
+# target to generate assembly for a file
+log/log.cpp.s:
+	cd /home/kalosaner/learn/ClusterChatServer/build && $(MAKE) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/log/log.cpp.s
+.PHONY : log/log.cpp.s
 
 main.o: main.cpp.o
 
@@ -377,6 +431,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ChatServer"
+	@echo "... buffer/buffer.o"
+	@echo "... buffer/buffer.i"
+	@echo "... buffer/buffer.s"
 	@echo "... chatserver.o"
 	@echo "... chatserver.i"
 	@echo "... chatserver.s"
@@ -386,6 +443,9 @@ help:
 	@echo "... db/db.o"
 	@echo "... db/db.i"
 	@echo "... db/db.s"
+	@echo "... log/log.o"
+	@echo "... log/log.i"
+	@echo "... log/log.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

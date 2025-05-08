@@ -1,13 +1,16 @@
-
-nginx
-
-
 使用
+nginx
 ```
 cd /usr/local/nginx/sbin
 ./nginx
 netstat -tanp | grep nginx
 ./nginx -s reload  # 平滑加载新增配置
+```
+
+redis
+```
+redis-server
+redis-cli
 ```
 
 编写
@@ -19,10 +22,6 @@ make install
 ldconfig /usr/local/lib
 ```
 
-redis
-```
-redis
-```
 
 启动
 ```

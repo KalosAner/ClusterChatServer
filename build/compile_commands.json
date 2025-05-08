@@ -1,0 +1,62 @@
+[
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/chatserver.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/chatserver.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/chatservice.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/chatservice.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/main.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/main.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/db/db.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/db/db.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/model/friendmodel.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/model/friendmodel.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/model/groupmodel.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/model/groupmodel.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/model/offlinemessagemodel.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/model/offlinemessagemodel.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/model/usermodel.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/model/usermodel.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/redis/redis.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/redis/redis.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/buffer/buffer.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/buffer/buffer.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/buffer/buffer.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/server",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/log/log.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/log/log.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/server/log/log.cpp"
+},
+{
+  "directory": "/home/kalosaner/learn/ClusterChatServer/build/src/client",
+  "command": "/usr/bin/g++   -I/home/kalosaner/learn/ClusterChatServer/include -I/home/kalosaner/learn/ClusterChatServer/include/server -I/home/kalosaner/learn/ClusterChatServer/include/server/model -I/home/kalosaner/learn/ClusterChatServer/include/server/db -I/home/kalosaner/learn/ClusterChatServer/include/server/redis -I/home/kalosaner/learn/ClusterChatServer/thirdparty  -g -g   -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/client/main.cpp",
+  "file": "/home/kalosaner/learn/ClusterChatServer/src/client/main.cpp"
+}
+]

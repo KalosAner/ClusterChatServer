@@ -174,6 +174,32 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/redis/redis.cpp.s"
 	cd /home/kalosaner/learn/ClusterChatServer/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalosaner/learn/ClusterChatServer/src/server/redis/redis.cpp -o CMakeFiles/ChatServer.dir/redis/redis.cpp.s
 
+src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.o: ../src/server/buffer/buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalosaner/learn/ClusterChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.o"
+	cd /home/kalosaner/learn/ClusterChatServer/build/src/server && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/buffer/buffer.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/buffer/buffer.cpp
+
+src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/buffer/buffer.cpp.i"
+	cd /home/kalosaner/learn/ClusterChatServer/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalosaner/learn/ClusterChatServer/src/server/buffer/buffer.cpp > CMakeFiles/ChatServer.dir/buffer/buffer.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/buffer/buffer.cpp.s"
+	cd /home/kalosaner/learn/ClusterChatServer/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalosaner/learn/ClusterChatServer/src/server/buffer/buffer.cpp -o CMakeFiles/ChatServer.dir/buffer/buffer.cpp.s
+
+src/server/CMakeFiles/ChatServer.dir/log/log.cpp.o: src/server/CMakeFiles/ChatServer.dir/flags.make
+src/server/CMakeFiles/ChatServer.dir/log/log.cpp.o: ../src/server/log/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalosaner/learn/ClusterChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/server/CMakeFiles/ChatServer.dir/log/log.cpp.o"
+	cd /home/kalosaner/learn/ClusterChatServer/build/src/server && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ChatServer.dir/log/log.cpp.o -c /home/kalosaner/learn/ClusterChatServer/src/server/log/log.cpp
+
+src/server/CMakeFiles/ChatServer.dir/log/log.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ChatServer.dir/log/log.cpp.i"
+	cd /home/kalosaner/learn/ClusterChatServer/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalosaner/learn/ClusterChatServer/src/server/log/log.cpp > CMakeFiles/ChatServer.dir/log/log.cpp.i
+
+src/server/CMakeFiles/ChatServer.dir/log/log.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ChatServer.dir/log/log.cpp.s"
+	cd /home/kalosaner/learn/ClusterChatServer/build/src/server && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalosaner/learn/ClusterChatServer/src/server/log/log.cpp -o CMakeFiles/ChatServer.dir/log/log.cpp.s
+
 # Object files for target ChatServer
 ChatServer_OBJECTS = \
 "CMakeFiles/ChatServer.dir/chatserver.cpp.o" \
@@ -184,7 +210,9 @@ ChatServer_OBJECTS = \
 "CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o" \
 "CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o" \
 "CMakeFiles/ChatServer.dir/model/usermodel.cpp.o" \
-"CMakeFiles/ChatServer.dir/redis/redis.cpp.o"
+"CMakeFiles/ChatServer.dir/redis/redis.cpp.o" \
+"CMakeFiles/ChatServer.dir/buffer/buffer.cpp.o" \
+"CMakeFiles/ChatServer.dir/log/log.cpp.o"
 
 # External object files for target ChatServer
 ChatServer_EXTERNAL_OBJECTS =
@@ -198,9 +226,11 @@ ChatServer_EXTERNAL_OBJECTS =
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o
+../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/buffer/buffer.cpp.o
+../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/log/log.cpp.o
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/build.make
 ../bin/ChatServer: src/server/CMakeFiles/ChatServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalosaner/learn/ClusterChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../../../bin/ChatServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalosaner/learn/ClusterChatServer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ../../../bin/ChatServer"
 	cd /home/kalosaner/learn/ClusterChatServer/build/src/server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ChatServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
